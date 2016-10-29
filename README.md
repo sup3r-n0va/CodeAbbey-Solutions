@@ -1,0 +1,2 @@
+# CodeAbbey-Solutions
+Beginner Problems
