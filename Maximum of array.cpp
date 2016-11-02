@@ -14,24 +14,24 @@ int main() {
 	
 	max = values[0];
 	
-    for ( loop = 1; loop <= ARRAY_SIZE; loop++) {
-	    cin >> values[loop];
+    	for ( loop = 1; loop <= ARRAY_SIZE; loop++) {
+	    	cin >> values[loop];
 		if( values[loop] >= max) {
 			max = values[loop];
 		}
 		
 	}
 	printf("%d\n", max);
-  printf("    ");	
+  	printf("    ");	
 	min = values[1];
 	
 	for (loop2 = 2; loop2 <= ARRAY_SIZE; loop2++) {
-	    cin >> values[loop2];
-	    if( values[loop2] <= min) {
+		cin >> values[loop2];
+	    	if( values[loop2] <= min) {
 	        min = values[loop2];
 	    }
 	}
-    printf("%d\n", min);
+    	printf("%d\n", min);
     
 	return 0;
 }
