@@ -1,2 +1,1 @@
-# CodeAbbey-Solutions
-Beginner Problems
+Programming Related
